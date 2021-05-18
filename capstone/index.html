@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <link rel="stylesheet"href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <!--Navbar logo-->
+            <div class="navbar-class">
+            <img src="images/EMS.svg" alt="EMS logo">
+            </div>
+        <!--NavLinks-->
+            <ul class="navbar-links">
+                <li>
+                    <a href = "Intro.html">Intro</a>
+                </li>
+                <li>
+                    <a href = "About.html">About</a>
+                </li>
+                <li>
+                    <a href = "Shop.html">Shop</a>
+                </li>
+            </ul>
+            <!--Navbar-cart-->
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </span>
+                <div class="cart-items">0</div>  
+            </div>
+        </div>
+    </nav>
+    <!--Header -->
+    <header class="millenial">
+        <div class="millenial-banner">
+            <h1 class="millenial-title">
+                <p>THE</p> 
+                <p>E-MILLENIAL</p>
+                <p>STORE</p></h1>
+            <img src="images/heroImage.svg" alt="milllenial-img">
+        </div>
+    </header>
+    <div class="millenial-btn">
+        <a href="Shop.html"> 
+         <button class="shopNow">Shop Now</button>
+        </a>
+    </div>
+    <!--About-section-->
+    <div class="about-millenial">
+            E-Millenial Store is an hypothetical online store for gadgets 
+            we believe every 'MIllenial' or 'Gen-Z'should have today.
+            We've got mobile phones, laptops,smartwatches and other 
+            gadgets. Explore all our gadgets and choose the ones that 
+                          suits you.
+    </div>
+    <!--Shop-section-->
+    <section class="products">
+        <div class="section-title">
+            <h2>OUR GADGETS</h2>
+        </div>
+        <!--all products-->
+        <div class="products-center">
+        <!--single product-->
+            <article class="product">
+                <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product1.png" alt="product1" class="product-img">
+                    <!--back of the product-->
+                    <div class="back-product">
+                        <h3>price</h3>
+                        <p>₦800,000</p>
+                    </div>
+                </div>
+                <h2>SAMSUNG TV</h2>
+                <button class="cart1">ADD TO CART</button>
+            </article>
+            <article class="product">
+                <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product2.png" alt="product2" class="product-img">
+                <!--back of the product-->
+                    <div class="back-product">          
+                        <h3>price</h3>
+                        <p>₦250,000</p>
+                    </div>
+                </div>
+                <h2>PIXEL 4a</h2>
+                <button class="cart2">ADD TO CART</button>
+            </article>
+            <article class="product">
+            <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product3.png" alt="product3" class="product-img">
+                    <!--back of the product-->
+                    <div class="back-product">
+                        <h3>price</h3>
+                        <p>₦500,000</p>
+                    </div>
+                </div>
+                <h2>PS 5</h2>
+                <button class="cart3">ADD TO CART</button>
+            </article>
+            <article class="product">
+            <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product4.png" alt="product4" class="product-img">
+                    <!--back of the product-->
+                    <div class="back-product">
+                        <h3>price</h3>
+                        <p>₦800,000</p>
+                    </div>
+                </div>
+                <h2>MACBOOK AIR</h2>
+                <button class="cart4">ADD TO CART</button>
+            </article>
+            <article class="product">
+            <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product5.png" alt="product" class="product-img">
+                <!--back of the product-->
+                    <div class="back-product">
+                        <h3>price</h3>
+                        <p>₦300,000</p>
+                    </div>
+                </div>
+                <h2>APPLE WATCH</h2>
+                <button class="cart5">ADD TO CART</button>
+            </article>
+            <article class="product">
+            <!--front of the product-->
+                <div class="img-container">
+                    <img src="images/product6.png" alt="product" class="product-img">
+            <!--back of the product-->
+                    <div class="back-product">
+                        <h3>price</h3>
+                        <p>₦100,000</p>
+                    </div>
+                </div>
+                <h2>AIR PODS</h2>
+                <button class="cart6">ADD TO CART</button>
+            </article>
+        </div>
+    </section>
+    <!--cart overlay-->
+    <div class="cart-overlay">
+        <div class="CART">
+            <table class="items-list">
+                <tr class="table1heading">
+                    <th>S/N</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>  
+                <!--items added to cart-->
+                <tr class="row1">
+                    <td></td>
+                    <td> SAMSUNG TV </td>
+                    <td> ₦<span class="items-amount1">800000</span> </td>
+                    <td><button class="button1 decrease"><i class="fas fa-minus"></i></button>
+                        <span class="amount1">1</span>
+                        <button class="button1 increase"><i class="fas fa-plus"></i></button></td>
+                    <td><button class="remove1">Remove</button></td>
+                </tr>
+                <tr class="row2">
+                   <td></td>
+                    <td> PIXEL 4a </td>
+                    <td> ₦<span class="items-amount2">250000</span> </td>
+                    <td><button class="button2 decrease"><i class="fas fa-minus"></i></button>
+                        <span class="amount2">1</span>
+                        <button class="button2 increase"><i class="fas fa-plus"></i></button>
+                    </td>
+                    <td><button class="remove2">Remove</button></td>
+                </tr>
+                <tr class="row3">
+                    <td></td>
+                    <td> PS5 </td>
+                    <td> ₦<span class="items-amount3">500000</span> </td>
+                    <td><button class="button3 decrease"><i class="fas fa-minus"></i></button>
+                        <span class="amount3">1</span>
+                        <button class="button3 increase"><i class="fas fa-plus"></i></button>
+                    </td>
+                    <td><button class="remove3">Remove</button></td>
+                </tr>
+                <tr class="row4">
+                    <td></td>
+                    <td> MACKBOOK AIR </td>
+                    <td> ₦<span class="items-amount4">800000</span> </td>
+                    <td><button class="button4 decrease"><i class="fas fa-minus"></i></button>
+                        <span class="amount4">1</span>
+                        <button class="button4 increase"><i class="fas fa-plus"></i></button>
+                    </td>
+                    <td><button class="remove4">Remove</button></td>
+                </tr>
+                <tr class="row5">
+                    <td></td>
+                    <td> APPLE WATCH </td>
+                    <td> ₦<span class="items-amount5">300000</span> </td>
+                    <td><button class="button5 decrease"><i class="fas fa-minus"></i></button>
+                        <span class="amount5">1</span>
+                        <button class="button5 increase"><i class="fas fa-plus"></i></button>
+                    </td>
+                    <td><button class="remove5">Remove</button></td>
+                </tr>
+                <tr class="row6">
+                    <td></td>
+                    <td> AIR PODS </td>
+                    <td> ₦<span class="items-amount6">100000</span> </td>
+                    <td><button class="button6 decrease"><i class="fas fa-minus"></i></button>
+                    <span class="amount6">1</span>
+                    <button class="button6 increase"><i class="fas fa-plus"></i></button>
+                    </td>
+                    <td><button class="remove6">Remove</button></td>
+                </tr>
+            </table>
+            <div class="form-class">
+                <form id="form1"action= "#">
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                     <span id = "output1"></span>
+                </form>
+                <form id = "form2" action="#"></form>
+                    <input type="text" id = "e-mail" name="e-mail" placeholder="Your Email" required>
+                    <span id = "output2"></span>
+                </form>
+                <form id="form3" action="#">
+                    <input type="number" id="number" name="number" placeholder="Your Phone number" required>
+                    <span id = "output3"></span>
+                </form> 
+                <div class="cart-footer">
+                    <h3>Total Amount to be Paid</h3>
+                    <p>₦<span class="Totalpaid">0</span></p>
+                    <button class="continue">Continue Shopping</button>
+                    <button class="checkout">checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--summary table-->
+    <div class="overlay1">
+        <div class="cartsummary">
+            <p>Thank you,  <span class="customer_name"></span>, Your Order Has been Received</p>
+             <div class="check-img">
+                <img src="images/check.svg" class="check" alt="check">
+            </div>
+                <p class="summaryh1">Summary</p>
+            <table class="tablesummary">
+                <tr class="rowheading">
+                    <th>S/N</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                <tr>
+                <tr class="rowA">
+                    <td></td>
+                    <td class="items-name">SAMSUNG TV</td>
+                    <td class="amounts1">1</td>
+                </tr>
+                <tr class="rowB">
+                    <td></td>
+                    <td class="item-name2">PIXEL 4a</td>
+                    <td class="amount2">1</td>
+                </tr>
+                <tr class="rowC">
+                    <td></td>
+                    <td class="item-name">PS 5</td>
+                    <td class="amount3">1</td>
+                </tr>
+                <tr class="rowD">
+                    <td></td>
+                    <td class="item-name">MACBOOK AIR</td>
+                    <td class="amount4">1</td>
+                </tr>
+                <tr class="rowE">
+                    <td></td>
+                    <td class="item-name">APPLE WATCH</td>
+                    <td class="amount5">1</td>
+                </tr>
+                <tr class="rowF">
+                    <td></td>
+                    <td class="item-name">AIR PODS</td>
+                    <td class="amount6">1</td>
+                </tr>
+            </table>
+            <div class="summaryBTN">
+                <button class="summaryBtn">Ok</button>
+            </div>
+        </div>
+    </div>
+    <footer class="millenial-footer">
+        <div class="millenial-foot">
+            <img src="images/EMS.svg" alt="footer svg" class="footer-img">
+            <p>Designed and Crafted by Frontend Ninja</p>
+        </div>
+    </footer>
+    <script src="https://js.paystack.co/v1/inline.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
