@@ -200,6 +200,7 @@ cart1.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowA.classList.add("summary");
+  cart1.disabled = true;
 })
 remove2.addEventListener("click", function(){
   row2.classList.remove("item");
@@ -224,6 +225,7 @@ cart2.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowB.classList.add("summary");
+  cart2.disabled = true;
 })
 remove3.addEventListener("click", function(){
   row3.classList.remove("item");
@@ -248,6 +250,7 @@ cart3.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowC.classList.add("summary");
+  cart3.disabled = true;
 })
 remove4.addEventListener("click", function(){
   row4.classList.remove("item");
@@ -272,6 +275,7 @@ cart4.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowD.classList.add("summary");
+  cart4.disabled = true;
 })
 remove5.addEventListener("click", function(){
   row5.classList.remove("item");
@@ -296,6 +300,7 @@ remove5.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowE.classList.add("summary");
+   cart5.disabled = true;
 })
 remove6.addEventListener("click", function(){
   row6.classList.remove("item");
@@ -320,6 +325,7 @@ cart6.addEventListener("click", function(){
   grandTotal += totalTempTotal
   totalPaid.innerText = grandTotal;
   rowF.classList.add("summary");
+  cart6.disabled = true;
 })
 
 
